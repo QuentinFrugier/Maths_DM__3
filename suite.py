@@ -19,7 +19,7 @@ class NotreSuite:
             else:
                 self.values.append(self.values[int(n/2)])
         else:
-            self.values.append(0)
+            self.values.append(self.first_terme)
 
 
     def get_values(self):
